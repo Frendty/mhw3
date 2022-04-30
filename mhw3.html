@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>(MHW3)</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <script src="script.js" defer="true"></script>
+    </head>
+    <body>
+        <article>
+            <div id="sidebar">
+                <div class="close-btn">&times;</div>
+                <div class="flex-container"></div>
+            </div>
+            <header>
+                <nav>
+                    <div id="nav-logo">
+                        Spotify Playlist Trip
+                    </div>
+                    <div id="nav-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#news">News</a>
+                        <a href="#readme">Read Me</a>
+                    </div>
+                    <div id="menu">
+                        <div>
+                        </div>
+                        <div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </nav>
+                <h1>
+                    <strong>Migliori Mete Turistiche 2022</strong><br>
+                    <a class="btn" href="#content">Scopri di più</a>
+                </h1>
+            </header>
+            <section>
+                <div id="activate-places-api">
+                    <span>Visualizza meteo di località delle 5 migliori destinazioni</span>
+                </div>
+                <div data-visible="false" id="place-api" class="hidden">
+                    <span>Scegli località: </span>
+                    <select>
+                        <option selected>Alentejo,Portugal</option>
+                        <option>Peloponnese,Greece</option>
+                        <option>Sète,France</option>
+                        <option>Ustica,Italy</option>
+                    </select>
+                    <div><span id="search-btn">Cerca</span></div>
+                    <div id="weather-desc" class="hidden">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div id="main-title-list-section">
+                    <h1>5 Migliori Destinazioni Vacanze Estate 2022</h1>
+                    <p>
+                        Alentejo PORTOGALLO<br>
+                        Elafonissos GRECIA<br>
+                        Sète FRANCIA<br>
+                        Ustica ITALIA<br>
+                        Stoupa GRECIA<br>
+                    </p>
+                </div>
+                <div id="content">
+                    <div>
+                        <h1>
+                           Alentejo
+                        </h1>
+                        <p>
+                            L'Alentejo si trova nel sud del Portogallo, nella regione oltre il Tago, nel tratto che va da Lisbona fino all'Algarve. Offre spiagge tranquille ed è spettacolare per viaggiare on the road attraversando un vasto tratto di costa atlantica lungo la quale si possono vedere spiagge bellissime e paesini assonnati.
+                        </p>
+                        <p>
+                            L'Alentejo è anche una regione importante per la produzione di vino. Infine, se desiderate una vacanza attiva attraversate la Rota Vicentina: un sentiero immerso nel Parco Naturale del Sud Ovest Alentejano e arriva a Capo San Vicente.
+                        </p>
+                        <div class="centered-image">
+                            <img src="https://img.itinari.com/regions/pt-alentejo.jpg?ch=DPR&dpr=1&w=1600&s=19ce07206501e4dcd1b360e95bcb5522">
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <h1>
+                            Elafonissos
+                        </h1>
+                        <p>
+                            Elafonissos, sud del Peloponneso, c'è un'isola esotica di soli 19 km quadrati ma caratterizzata da un paesaggio paradisiaco. Ottimo luogo per dimenticare la modernità e ritornare con la mente a epoche più semplici. Qui, infatti, potrete godervi spiagge meravigliose non troppo affollate e dalla sabbia bianchissima, dune circondate di cedri, acque turchesi, cielo azzurro.
+                        </p>
+                        <div class="centered-image">
+                            <img src="Images/mole-1896142_1920.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <h1>
+                            Sète
+                        </h1>
+                        <p>
+                            Sète è una città storica della Francia meridionale, storicamente nota come la "Venezia del Languedoc", appellativo che le venne conferito dallo scrittore francese Paul Valèry. Il vecchio porto e il centro storico della cità sembrano luoghi sospesi nel tempo. L'arrivo dei festival Worldwide Music Festival a luglio e del Convenanza a settembre hanno reso la città una delle mete privilegiate per gli amanti della musica in Europa.
+                        </p>
+                        <div class="centered-image">
+                            <img src="https://www.ilturista.info/myTurista/files/1/le_barche_colorate_nella_marina_di_sete_in_linguadoca_rossiglione_francia.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <h1>
+                            Ustica
+                        </h1>
+                        <p>
+                            Lontana dai luoghi più frequentati della Sicilia, l'isola di Ustica, è una perla nera del Mediterraneo, situata a Nord della costa palermitana. È un paradiso naturale fatto di rocce e mare, luogo ideale per dilettarsi con lo snorkeling e il diving. L'isola si trova all'interno dell'omonima Area Marina Protetta.
+                        </p>
+                        <div class="centered-image">
+                            <img src="https://www.viaggipersub.it/wp-content/uploads/2020/02/isola_di_ustica.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <h1>
+                            Stoupa
+                        </h1>
+                        <p>
+                            Stoupa è una destinazione ancora segreta e poco frequentata in Grecia e si trova sulla costa sud-occidentale  della penisola del Mani, nel Peloponneso. Il paesaggio è dipinto di olivi e montagne suggestive, la cittadina è immersa nella storia ed è circondata da bellissime ed incontaminate spiagge. In questa zona potrete trovare affascinanti borghi medievali, paesini di pescatori, spiagge selvagge, baie turchesi e montagne per percorsi di trekking.
+                        </p>
+                        <div class="centered-image">
+                            <img src="https://thumbs.dreamstime.com/b/vista-della-spiaggia-di-stoupa-situata-messinia-la-grecia-98592315.jpg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <h1>World Tour Places</h1>
+                <p>
+                    Carmelo Angelo Federico Ragusa N° matricola: 1000004604
+                </p>
+            </footer>
+        </article>
+    </body>
+</html>
