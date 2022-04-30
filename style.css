@@ -235,6 +235,10 @@ div.flex-container {
     margin-top: 3%;
 }
 
+#search-btn-container {
+    margin-top: 1%;
+}
+
 #place-api div span {
     font-size: 1.2rem;
 }
